@@ -2,20 +2,35 @@ header {
   text-align: center;
 }
 
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: darkblue;
+}
+
+p {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: justify;
+}
+
 .bar-menu {
   width: 100%;
   display: flex;
-  position: fixed;
+  position:inherit;
+  margin-bottom: 20px;
 }
 
 a {
   flex: 1;
   color: #ffffff;
   text-align: center;
-  padding: 14px 14px;
+  padding: 15px;
   text-decoration: none;
+  font-family: "Source Serif 4", serif;
+  font-weight: bold;
   font-size: 18px;
-  background-color: #000000;
+  background-color: black;
 }
 
 a:hover {
@@ -24,13 +39,39 @@ a:hover {
 }
 
 .active {
-  background-color: rgb(0, 0, 70);
+  background-color: rgb(0, 0, 50);
+}
+
+
+img {
+  width: 500px;
+  border: solid;
+  border-width: thick;
+  border-color: black;
+  margin-right: 10px;
+  float: left;
+  box-shadow: 8px 8px 8px darkgray;
+}
+
+table {
+  width: 100%;
+  align-content: center;
+  font-family: "DM Serif Display", serif;
 }
 
 thead {
   background-color: darkblue;
   color: white;
-  text-decoration: bold;
+  font-size: large;
+}
+
+tbody {
+  font-size: medium;
+}
+
+th {
+  text-align: left;
+  padding: 10px;
 }
 
 .impar {
