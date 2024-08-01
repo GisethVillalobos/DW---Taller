@@ -17,11 +17,12 @@ p {
 .bar-menu {
   width: 100%;
   display: flex;
-  position:inherit;
   margin-bottom: 20px;
+  position: sticky;
+  top: 0;
 }
 
-a {
+a.menu {
   flex: 1;
   color: #ffffff;
   text-align: center;
@@ -31,6 +32,20 @@ a {
   font-weight: bold;
   font-size: 18px;
   background-color: black;
+}
+
+div.index-container {
+  background-color: lightgray;
+  width: 400px;
+  padding: 10px;
+  display: block;
+}
+
+a.index {
+  color: black;
+  font-family: "Source Serif 4", serif;
+  font-size: 14px;
+  background-color: none;
 }
 
 a:hover {
@@ -43,7 +58,7 @@ a:hover {
 }
 
 
-img {
+img.welcome {
   width: 500px;
   border: solid;
   border-width: thick;
@@ -82,4 +97,37 @@ th {
 .par {
   background-color: rgb(190, 235, 190);
   color: black;
+}
+
+.interesting {
+  display: flex;
+}
+
+iframe {
+  margin: 10px;
+  flex: 1;
+  height: 250px;
+}
+
+.img-i {
+  margin: 10px;
+  max-height: 250px;
+  flex: 1;
+}
+
+.enlace {
+  margin: 10px;
+  flex: 1;
+  font-size: 20px;
+}
+
+li::marker {
+  color: red;
+}
+
+.era {
+  border: solid;
+  border-color: black;
+  margin: 5px;
+  background: linear-gradient(#bbb4bb, #e9acac);
 }
