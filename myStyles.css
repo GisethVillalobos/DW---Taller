@@ -125,9 +125,18 @@ li::marker {
   color: red;
 }
 
+.index-container {
+  margin: 5px;
+}
+
 .era {
   border: solid;
   border-color: black;
   margin: 5px;
   background: linear-gradient(#bbb4bb, #e9acac);
+}
+
+
+input {
+  height: 50px;
 }
